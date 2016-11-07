@@ -17,7 +17,26 @@
             "type": "reactnative",
             "request": "launch",
             "platform": "ios",
-            "target": "iPhone 6s",
+            "target": "iPhone 5s",
+            "internalDebuggerPort": 9090,
+            "sourceMaps": true,
+            "outDir": "${workspaceRoot}/.vscode/.react"
+        },
+        {
+            "name": "Attach to packager",
+            "program": "${workspaceRoot}/.vscode/launchReactNative.js",
+            "type": "reactnative",
+            "request": "attach",
+            "internalDebuggerPort": 9090,
+            "sourceMaps": true,
+            "outDir": "${workspaceRoot}/.vscode/.react"
+        },
+        {
+            "name": "Debug in Exponent",
+            "program": "${workspaceRoot}/.vscode/launchReactNative.js",
+            "type": "reactnative",
+            "request": "launch",
+            "platform": "exponent",
             "internalDebuggerPort": 9090,
             "sourceMaps": true,
             "outDir": "${workspaceRoot}/.vscode/.react"

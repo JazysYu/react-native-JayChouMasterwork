@@ -27,6 +27,7 @@ class AlbumListView extends Component {
                 }
             })
         }
+        this.datas
     }
 
     componentDidMount() {
@@ -83,7 +84,7 @@ class AlbumListView extends Component {
                 if (skipCount == 0) {
                     this.datas = responseData.rows
                 } else {
-                    this.datas.push.apply(this.datas, responseData.rows)
+                    Array.prototype.push.apply(this.datas, responseData.rows)
                 }
 
                 cacheManager.setCache(this.datas)

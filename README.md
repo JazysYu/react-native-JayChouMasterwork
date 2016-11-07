@@ -5,3 +5,6 @@
 ![snapshot](https://github.com/JazysYu/react-native-JayChouMasterwork/blob/master/Snapshots/JayChouMasterworkDemo.gif)
 
 [配套教程地址](http://www.jianshu.com/p/645cdd80445b?utm_campaign=maleskine&utm_content=note&utm_medium=writer_share&utm_source=weibo)
+
+###Installion
+npm install
